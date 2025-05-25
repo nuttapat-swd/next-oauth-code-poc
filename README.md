@@ -1,4 +1,4 @@
-# POC Oauth2 Authorization Flow (Keycloak)
+# POC Oauth2  Code Flow (Keycloak)
 ## 🎯 **What is it?**  
 A front-end built with Next.js, powered by *__99% Vibe Coding__* 😂, and visualized with a sequence diagram.
 
