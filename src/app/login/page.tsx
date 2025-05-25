@@ -63,7 +63,7 @@ sequenceDiagram
 
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: "100vh" }}>
-      <h1>Sitearound OAuth2 POC</h1>
+      <h1>Keycloak OAuth2 Authorization Code Flow POC</h1>
       <a href="#" onClick={handleLoginClick}>
         <button style={{ padding: "12px 24px", fontSize: "18px", cursor: "pointer" }} disabled={countdown !== null}>
           Login
