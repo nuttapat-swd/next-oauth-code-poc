@@ -1,8 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# POC Oauth2 Authorization Flow (Keycloak)
+## 🎯 **What is it?**  
+A front-end built with Next.js, powered by *__99% Vibe Coding__* 😂, and visualized with a sequence diagram.
 
-## Getting Started
+## 📚 **Purpose**  
+To learn and demonstrate the **OAuth2 Authorization Code Flow** using Keycloak.
 
-First, run the development server:
+## 🛠️ **Features**
+- Login with Keycloak
+- Retrieve Authorization Code
+- Exchange Code for Access Token
+- Call a protected API
+- Logout
+
+![image](https://github.com/user-attachments/assets/0897877f-3da5-45c4-99fb-1f4e72fd5235)
+
+---
+
+## 🚀 Getting Started
+
+1. Create a `.env.local` file with the following variables:
+```.env
+NEXT_PUBLIC_KEYCLOAK_BASE_URL=
+NEXT_PUBLIC_KEYCLOAK_REDIRECT_URI=
+NEXT_PUBLIC_KEYCLOAK_REALM=
+NEXT_PUBLIC_KEYCLOAK_CLIENT_ID=
+NEXT_PUBLIC_KEYCLOAK_CLIENT_SECRET=
+NEXT_PUBLIC_RESOURCE_API_URL=
+```
+2. Start the development server:
 
 ```bash
 npm run dev
@@ -14,23 +39,10 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🖼️ Example
+![image](https://github.com/user-attachments/assets/41a15061-db30-42c4-a3aa-83430ab8cb42)
+![image](https://github.com/user-attachments/assets/f81a999f-8373-4d4a-bb88-7d239c7d96b9)
+![image](https://github.com/user-attachments/assets/01fc0baf-ad82-4ffb-903f-45fe2c2a9c58)
