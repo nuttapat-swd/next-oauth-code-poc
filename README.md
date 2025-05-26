@@ -27,6 +27,9 @@ NEXT_PUBLIC_KEYCLOAK_CLIENT_ID=
 NEXT_PUBLIC_KEYCLOAK_CLIENT_SECRET=
 NEXT_PUBLIC_RESOURCE_API_URL=
 ```
+
+**You can use [drf-keycloak-poc](https://github.com/nuttapat-swd/drf-keycloak-poc) as api server.
+
 2. Start the development server:
 
 ```bash
